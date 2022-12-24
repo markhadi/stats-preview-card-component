@@ -17,46 +17,26 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./dist/output.css" />
+
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
-  <body class="grid place-content-center min-h-screen p-6 bg-veryDarkBlue">
-    <main
-      class="bg-darkDesaturatedBlue rounded-[10px] overflow-hidden card max-w-[1110px] md:card-md"
-    >
-      <div class="header lg:bg-headerDesktop lg:min-w-[540px]"></div>
-      <div class="content m-8 lg:m-16 lg:pl-1.5 lg:pr-[46px]">
-        <h1 class="title md:text-left lg:text-4xl lg:mt-1.5">
-          Get <span class="text-softViolet">insights</span> that help your
-          business grow.
-        </h1>
-        <p class="paragraf md:text-left lg:mt-6">
+  <body>
+    <main>
+      <div class="header"></div>
+      <div class="content">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p>
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
         </p>
-        <div
-          class="mt-10 flex flex-col gap-7 md:flex-row md:justify-between lg:mt-[74px]"
-        >
-          <div class="flex flex-col">
-            <span class="statInfo">10k+</span>
-            <span class="statTitle">companies</span>
-          </div>
-          <div class="flex flex-col">
-            <span class="statInfo">314</span>
-            <span class="statTitle">templates</span>
-          </div>
-          <div class="flex flex-col">
-            <span class="statInfo">12m+</span>
-            <span class="statTitle">queries</span>
-          </div>
-        </div>
+        <ul>
+          <li><span>10k+</span><span>companies</span></li>
+          <li><span>314</span><span>templates</span></li>
+          <li><span>12m+</span><span>queries</span></li>
+        </ul>
       </div>
     </main>
-
-    <!-- <div>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
   </body>
 </html>
